@@ -1,0 +1,45 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# This is the ignor section for the client
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+.DS_Store
+node_modules
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+# This is the ignor section for the server
+*.pyc
+*.ini
+server/venv/
+.idea/
+.vscode/
+__pycahe__/
+server/test.py
+server/config.ini
+
+server/migrations
+venv
